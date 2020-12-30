@@ -18,7 +18,7 @@ const {packageJson, path: pkgPath} = readPkg.sync({
 const baseUrl =
   packageJson.baseUrl ||
   packageJson.homepage ||
-  'https://update-homepage-in-your-package.json'
+  'https://peeq.gq'
 
 const repoRoot = path.dirname(pkgPath)
 const redirectPath = path.join(repoRoot, '_redirects')
